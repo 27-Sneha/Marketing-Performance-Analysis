@@ -1,6 +1,6 @@
 # Marketing-Performance-Analysis📝
 
-Marketing-Performance-Analysis is a responsive and interactive marketing performance analysis dashboard built with ReactJS, Material-UI, and Chart.js. It empowers businesses to visualize and understand their ad campaign data through dynamic charts, detailed tables, and intelligent filters.
+Marketing-Performance-Analysis is a responsive and interactive marketing performance analysis dashboard built with ReactJS, Material-UI, and Recharts. It empowers businesses to visualize and understand their ad campaign data through dynamic charts, detailed tables, and intelligent filters.
 
 ## Features🎯
 
