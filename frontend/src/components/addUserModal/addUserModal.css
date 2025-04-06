@@ -1,0 +1,30 @@
+/* AddUserModal.css */
+.modal-paper {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  gap: 20px;
+  transform: translate(-50%, -50%);
+  background-color: var(--background-paper, #fff);
+  border: 2px solid #000;
+  box-shadow: 24px;
+  padding: 24px;
+}
+
+.search-bar {
+  margin-bottom: 24px;
+}
+
+.role-select {
+  margin-bottom: 20px;
+}
+
+.assign-role-btn {
+  width: 200px !important;
+  font-size: 15px !important;
+  text-transform: none !important;
+  color: white !important;
+}

@@ -1,0 +1,13 @@
+.campaign-table {
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 120px);
+  background-color: white;
+  border-radius: 12px;
+  row-gap: 30px;
+  padding: 30px 40px;
+}
+
+.campaign-table-container {
+  height: 100%;
+}

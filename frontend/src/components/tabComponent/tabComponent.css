@@ -1,0 +1,45 @@
+.link-now-container {
+  height: 100%;
+  background-color: white;
+  border-radius: 12px;
+  flex-direction: column !important;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px;
+}
+
+.link-now-btn {
+  width: 100%;
+  font-size: 22px !important;
+  padding: 10px 30px !important;
+}
+
+.tab-header-section {
+  align-items: center;
+  margin-bottom: 30px;
+  justify-content: space-between;
+}
+
+.tab-container {
+  background-color: white;
+  width: 350px;
+  border-radius: 50px;
+}
+
+.campaign-selection-container {
+  justify-content: flex-end;
+  column-gap: 20px;
+}
+
+.tab-title {
+  font-size: large !important;
+  padding: 20px !important;
+}
+
+@media (max-width: 600px) {
+  .campaign-selection-container {
+    justify-content: flex-start;
+    margin-top: 20px;
+  }
+}

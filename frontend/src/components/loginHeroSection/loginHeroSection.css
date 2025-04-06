@@ -1,0 +1,58 @@
+.login-right-section {
+  background-color: var(--primary-color);
+  height: 100%;
+  padding: 100px;
+}
+
+.login-right-upper-section {
+  text-align: center;
+}
+
+.login-image {
+  position: relative;
+}
+
+.login-image img {
+  position: absolute;
+  top: -30px;
+  left: -40px;
+  width: 830px;
+}
+
+@media (max-width: 2500px) {
+  .login-image img {
+    top: 12px;
+    left: -50px;
+    width: 730px;
+  }
+}
+
+@media (max-width: 2067px) {
+  .login-image img {
+    top: 60px;
+    left: -70px;
+    width: 700px;
+  }
+}
+
+@media (max-width: 1800px) {
+  .login-right-section {
+    padding: 60px;
+  }
+  .login-image img {
+    top: 60px;
+    left: -60px;
+    width: 650px;
+  }
+}
+
+@media (max-width: 1536px) {
+  .login-right-section {
+    align-items: center;
+    padding: 0 20px;
+  }
+  .login-image img {
+    position: static;
+    width: 100%;
+  }
+}

@@ -1,0 +1,25 @@
+.kpi-card-container {
+  background-color: #1e88e5 !important;
+  border-radius: 12px !important;
+  padding: 8px 18px;
+}
+
+.kpi-card-icon-container {
+  background-color: #1565c0 !important;
+  border-radius: 8px !important;
+  padding: 12px !important;
+  color: white !important;
+}
+
+.kpi-card-icon {
+  font-size: 36px !important;
+}
+
+.kpi-card-header {
+  color: #bfe1ff;
+}
+
+.kpi-card-content {
+  color: white;
+  font-weight: bold !important;
+}

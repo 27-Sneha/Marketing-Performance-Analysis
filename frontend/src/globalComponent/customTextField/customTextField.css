@@ -1,0 +1,21 @@
+.custom-text-field .MuiInputBase-root {
+  height: 64px;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+.custom-text-field .MuiInputLabel-root {
+  font-size: 20px;
+}
+
+@media (max-width: 600px) {
+  .custom-text-field .MuiInputBase-root {
+    height: 50px;
+    font-size: 16px !important;
+    border-radius: 8px;
+  }
+
+  .custom-text-field .MuiInputLabel-root {
+    font-size: 16px !important;
+  }
+}

@@ -1,0 +1,6 @@
+.primary {
+  background-color: var(--primary-color) !important;
+  font-size: 18px !important;
+  border-radius: 50px !important;
+  width: 60%;
+}

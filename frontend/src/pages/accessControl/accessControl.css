@@ -1,0 +1,23 @@
+.access-control-container {
+  height: 100%;
+  background-color: white;
+  border-radius: 12px;
+  gap: 30px;
+  padding: 50px;
+}
+
+.access-control-header {
+  display: flex;
+  flex-direction: row !important;
+  height: fit-content;
+  justify-content: space-between;
+}
+
+.add-user-btn {
+  width: 140px !important;
+  font-size: 15px !important;
+}
+
+.access-control-table-section {
+  height: 90%;
+}

@@ -1,0 +1,36 @@
+.dashboard {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 290px 1fr;
+  grid-template-rows: 120px 1fr;
+  grid-template-areas:
+    "sidebar header"
+    "sidebar main-content";
+}
+
+.header {
+  grid-area: header;
+  align-items: center;
+  display: flex;
+  padding: 20px 40px;
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.main-content {
+  grid-area: main-content;
+  background-color: #f4f4f4;
+  padding: 40px;
+}
+
+@media (max-width: 900px) {
+  .dashboard {
+    grid-template-columns: 1fr;
+    grid-template-rows: 120px 1fr;
+    grid-template-areas:
+      "header"
+      "main-content";
+  }
+}
